@@ -4,14 +4,26 @@ html {
 
 body {
   font-family: Fantasque Sans Mono, "Courier New", monospace;
-  background-color: burlywood;
+
+  background-image: radial-gradient(
+    circle closest-side,
+    rgb(55, 206, 60) 0%,
+    rgb(54, 54, 148) 20%,
+    rgb(255, 205, 4) 100%
+  );
 }
 
 h2 {
   color: chocolate;
 }
 
-img {
+img,
+video {
   max-width: 100%;
   height: auto;
+}
+
+iframe {
+  width: 80%;
+  height: 400px;
 }
