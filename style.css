@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Fantasque Sans Mono, "Courier New", monospace;
+  background-color: burlywood;
+}
+
+h2 {
+  color: chocolate;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
