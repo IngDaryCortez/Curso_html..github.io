@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- title entre 55 y 65 caracteres -->
+  <title>Curso HTML</title>
+  <!-- descripcion no mas 265 caracteres -->
+  <meta name="description" content="En esta pagina estamos aprendiendo los fundamen de html" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!--Esto es un comentario-->
+  <!--Enlaces de la documentación de HTML:
+  - https://www.w3.org/html/
+  - https://html.spec.whatwg.org/
+  - https://www.w3.org/blog/news/archives...
+  - https://developer.mozilla.org/es/docs...
+  - HTML Reference - https://htmlreference.io/
+  - Caracteres especiales HTML - https://desarrolloweb.com/articulos/1...-->
+  <h3 id="inicio">Temario del Curso</h3>
+  <ul>
+    <li><a href="index.html#encabezados">Encabezados HTML</a></li>
+    <li><a href="index.html#texto-basico">Etiqueta texto basicas</a></li>
+    <li><a href="index.html#texto-semantico">Etiqueta texto semanticas</a></li>
+    <li><a href="index.html#etiqueta-formateo">Etiqueta formateo</a></li>
+    <li><a href="index.html#etiqueta-structurales">Etiqueta estructurales</a></li>
+    <li><a href="index.html#svg">SVG</a></li>
+    <li><a href="index.html#figura">Figura</a></li>
+    <li><a href="index.html#listas-ordenada">Listas ordenadas</a></li>
+    <li><a href="index.html#listas-desordenada">Listas desordenadas</a></li>
+    <li><a href="index.html#listas-disfuncionales">Listas difuncinales</a></li>
+    <li><a href="index.html#tablas">Tablas</a></li>
+    <li><a href="index.html#enlaces">Enlaces</a></li>
+    <li><a href="index.html#etiqueta-bloque-lineas">Etiqueta de bloque vs Etiqueta lineas</a></li>
+    <li><a href="index.html#elemento-interactivos">Elementos elemento-interactivos</a></li>
+    <li><a href="index.html#audio-video">Audio y video</a></li>
+  </ul>
+  <hr />
+  <p>
+  <h1>En cabezado de nivel 1 solo puede existir un h1 por documento por html</h1>
+  <h2 id="encabezados">Encabezados HTML</h2>
+  <h3>En cabezado de nivel 3</h3>
+  <h4>En cabezado de nivel 4</h4>
+  <h5>En cabezado de nivel 5</h5>
+  <h6>En cabezado de nivel 6</h6>
+  <a href="index.html#inicio">☝️</a>
+  <h2 id="texto-basico">Etiqueta texto basico</h2>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+    Pariatur voluptatem dolore quae perferendis, assumenda a minima inventore
+    sunt, ullam commodi dolor! Laborum pariatur error eius, voluptates impedit
+    maxime in similique!
+  </p>
+  <p>
+    Palabras en : <b>negrita</b>, <i>itali</i>, <u>subrayado</u>,
+    e=mc<sup>2</sup>, H <sub>2</sub>O,<mark>marcatexto</mark>,
+    <small>letra pequeñas</small>
+  </p>
+  <a href="index.html#inicio">☝️</a>
+  <br>
+  <h2 id="texto-semantico">Etiqueta texto semantico</h2>
+  <strong>Este texto es importante</strong>
+  <em>Esto texto hace enfasis</em>
+  </p>
+  <blockquote>Yo solo se que no se nada</blockquote>
+  <cite>Socrate</cite>
+  <br>
+  <a href="index.html#inicio">☝️</a>
+  <hr />
+  <h2 id="etiqueta-formateo">Etiqueta de formateo</h2>
+  <p>
+  <pre> <!--Etiqueta para dar formate-->
+        Tarea por hacer Aprender : 
+    -HTML 
+    -CCS 
+    -JScrip
+  </pre>
+  </p>
+  <p>
+    <code>
+      Esta Etiqueta es para formato codigo
+    </code>
+  </p>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="etiqueta-structurales">Etiqueta semantica estructurales</h2>
+  <div>div-> es una etiqueta contenedora que no tiene semantica</div>
+  <main> main-> define la seccion principal del documento, solo puede existir una
+    por documento html</main>
+  <footer>footer->pie de pagina de un sitio web o de una seccion</footer>
+  <nav>nav->representacion una navegacion</nav>
+  <article> article -> representa una seccion autocontenido(que por si sola se explica)</article>
+  <aside>aside->representa un contenido complementario o secundario</aside>
+  <section>section->representa una seccion de contenido generecio</section>
+  <address>address -> representa una informacion de contacto</address>
+  <hr>
+  <h2 id="etiqueta-bloque-lineas">Etiquetas de bloques vs Etiquetas de lineas</h2>
+  <div style="background-color: rgb(255, 255, 0);">La etiqueta de bloque por execelencia es el div, etiqueta de bloque
+    genera un salto de linaes</div>
+  <span style="background-color: rgb(0, 174, 255);">la etiqueta de linea por execelncia es la linea, una etiqueta de
+    linea solo ocupa el espacio nesecario que tiene su contenido </span>
+
+  <img src="Recurso/PicsArt_11-06-06.46.52.png" alt="Tabla">
+  <br>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="svg">SVG</h2>
+  <img src="Recurso/kEnAi.svg" alt="kEnAi"></IMG>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="figura">Figura</h2>
+  <img src="Recurso/img/periodic-table-of-html-elements.png" alt="Tabla Periodica de elementos HTML">
+  <hr>
+  <figcaption>Tabla Periodica de elementos HTML</figcaption>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-ordenadas">Lista ordenada</h2>
+  <h3>Las estaciones del año</h3>
+  <ol type="i">
+    <li>Primaver</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+  </ol>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-desordenadas">Lista desordenada</h2>
+  <ul>
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+  </ul>
+  <ul type="square">
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+  </ul>
+  <ul type="circle">
+    <li>Primero</li>
+    <li>Segundo</li>
+    <li>Tercero</li>
+  </ul>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="listas-difuncional">lista definicion</h2>
+  <dl>
+    <dt HTML>
+    <dd>DEFINE LAS ESTRUCTUCTURA DE PAGINA WEB</dd>
+    </dt>
+    <dt CSS>
+    <dd> DEFINE EL ESTILO DE LAS PAGINA WEB</dd>
+    </dt>
+    <dt JScrip>
+    <dd>DEFINE LA LOGICA DE LAS PAGINA WEB</dd>
+    </dt>
+  </dl>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="tablas">Tabla</h2>
+  <table>
+    <tr>
+      <td>Nombre</td>
+      <td>Apellido</td>
+      <td>edad</td>
+    </tr>
+    <tr>
+      <td>Dary</td>
+      <td>Cortez</td>
+      <td>30</td>
+    </tr>
+  </table>
+  <br><br>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Datos de usuario</th>
+      </tr>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>edad</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dary</td>
+        <td>Cortez</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Hanna</td>
+        <td>Duartez</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>Roberto</td>
+        <td rowspan="2">Corea</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>Carlos</td>
+        <td>15</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="3"><small>Usuario del sistemas</small></th>
+      </tr>
+    </tfoot>
+  </table>
+  <a href="index.html#inicio">☝️</a>
+  <hr>
+  <h2 id="enlaces">Enlaces</h2>
+  <a href="nueva_funcionalidad.html">Asia la pagina nueva nueva funcionalidad</a>
+  <br>
+  <a href="https://www.google.com" target="_blank" rel="nofollow">Enlaces Externos</a>
+  <br>
+  <a href="https://www.google.com" target="_blank"><img src="Recurso/kEnAi.svg" alt="google" width="40" height="40"></a>
+  <br>
+  <a href="https://www.facebook.com/dary.cortez.75/" target="_blank">
+    <img src="https://s2.svgbox.net/social.svg?ic=facebook&color=1e0986" width="32" height="32">
+  </a>
+  <br>
+  <hr>
+  <a href="mailto:daryjosecc@gmail.com">correo electronico</a>
+  <hr>
+  <a href="tel:+50581922702">enlace teledonico</a>
+  <hr>
+  <a href="https://api.whatsapp.com/send?phone=+50581932702&text=hola">Enlace Whatsapp</a>
+  <a href="index.html#inicio">☝🏼</a>
+  <br>
+  <h2 id="elemento-interactivos">Elementos interactibo</h2>
+  <button onclick="alert('hola a echo click en el boton')">Este es un boton</button>
+  <details open>
+    <summary>Titulo del acordeon</summary>
+    <article>
+      <h3>contenido del arconrdeon</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+      <img src="Recurso/puesta-sol.jpg" alt="Puesta del sol">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+    </article>
+  </details>
+  <br>
+  <details>
+    <summary>Titulo del acordeon</summary>
+    <article>
+      <h3>contenido del arconrdeon</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+      <img src="Recurso/puesta-sol.jpg" alt="Puesta del sol">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat maiores ex corrupti, quae molestiae,
+        exercitationem aperiam voluptas nam, est officiis soluta. Accusantium quod voluptatem necessitatibus rerum est
+        maiores vel!</p>
+    </article>
+  </details>
+  <br>
+  <dialog open>
+    Esta es una ventana modal
+  </dialog>
+  <br>
+  <a href="index.html#inicio">☝🏼</a>
+  <h2 id="audio-video">Audio y Video</h2>
+  <audio src="Recurso/media/Feels-PatrickPatrikios.mp3" controls autoplay>Soy un audio</audio>
+  <a href="index.html#inicio">☝🏼</a>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <script>
+    console.log("hola mundo");
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
